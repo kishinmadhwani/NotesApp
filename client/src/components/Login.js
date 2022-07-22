@@ -64,7 +64,7 @@ function Login({ setIsLogin }) {
                             </Form.Group>
                             <p className="mt-1">You don't have an account? <span onClick={() => setOnLogin(false)} className="purple">Register Now!</span></p>
                             <Button variant="btn bg_purple btn-lg" type="submit">Login</Button>
-                            {err && <Alert className="alert-dark" >{err}</Alert>}
+                            {err && <Alert className="mt-3 alert-dark" >{err}</Alert>}
                         </Form>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ function Login({ setIsLogin }) {
                             </Form.Group>
                             <p className="mt-1">Already have an account? <span onClick={() => setOnLogin(true)} className="purple">Login Now!</span></p>
                             <Button variant="btn bg_purple btn-lg" type="submit">Register</Button>
-                            {err && <Alert className="alert-dark" >{err}</Alert>}
+                            {err && <Alert className="mt-3 alert-dark" >{err}</Alert>}
                         </Form>
                     </div>
                 </div>
